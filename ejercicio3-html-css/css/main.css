@@ -1,0 +1,55 @@
+header{
+    background-image: linear-gradient(to right, grey, blue);
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: tomato;
+}
+
+header ~ nav{/* selecciona a todos 
+    los hermanos adiacentes*/
+    background-image: linear-gradient(to bottom, green, blue);
+    font-weight: bold;
+    color: grey;
+}
+
+nav > a{/* selecciona a todos los hijos*/
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+section{
+    background-image: linear-gradient(red, green, blue);
+    color: black;
+    border: black;
+}
+
+section > table, td{
+    background-image: linear-gradient(-90deg, pink, white);
+    color: black;
+    border: 1px solid blue;
+}
+
+#td1{
+    background-image: linear-gradient(-90deg, grey, black);
+    color: yellow;
+    border: 1px solid green;
+}
+
+.art{
+    background-image: linear-gradient(to top, yellow, tomato);
+    color: black;
+    border: 5px solid red;
+}
+
+aside{
+    background-image: linear-gradient(angle, green, #778866);
+    color: black;
+    border: 9px solid blue;
+}
+body > footer{
+    background-image: linear-gradient(green, yellow, blue);
+    color: black;
+    border-top: 2px solid white;
+}
