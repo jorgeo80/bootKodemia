@@ -1,0 +1,98 @@
+/* selector nivel 1*/
+*{/* selector universal */
+    font-family: Arial;
+}
+/* selector nivel 2*/
+li{/* selector por tagname*/
+    text-decoration: underline;
+
+}
+/* selector nivel 3*/
+#main-header{/* selector por id */
+    /*el  selector por id tiene mayor jerarquia que el
+    de clase, por lo que es el que rige*/
+    font-style: italic;
+    color: tomato;
+}
+/* selector nivel 4*/
+.font-color-peru{/* selector por clase */
+    color: peru;
+}
+/* selector nivel 5*/
+#main-header.font-color-navy{/*selector combinado*/
+    color: navy;
+}
+/* las jerarquias van de 5>4>3>2>1*/
+
+ol li{/*selector anidado*/
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.second-ordered-list li {
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: lower;
+}
+
+.second-ordered-list>li {
+    /*este selector solo afecta a los hijos de 
+    second-ordered-list*/
+    color:slategray
+}
+.nested-test>ul{/*selector de hijo inmediato*/
+    list-style: none;
+    color: black;
+}
+
+.green_square{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.green_square ~ div{/* selecciona a todos 
+    los hermanos adiacentes*/
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin-bottom: 5px;
+}
+
+.green_square + div{ /* seleciona al hermano adicente*/
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.green_square ~ section{
+    color: red;
+    border: 1px solid blue;
+}
+
+.green_square ~ section:last-of-type{
+    color: grey;
+    border: 1px solid yellow;
+}
+
+.pseudo-selectors > li:nth-last-of-type(2){
+    color: red;
+}
+
+.pseudo-selectors > li:nth-last-of-type(odd){
+    color: slategray;
+}
+
+.pseudo-selectors > li:nth-last-of-type(3n){
+    text-align: right;
+}
+.pseudo-selectors > li:nth-last-of-type(3n+1){
+    text-align: right;
+    background-color: tomato;
+}
+
+.pseudo-selectors li:not(:first-of-type):hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
