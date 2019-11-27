@@ -30,17 +30,6 @@ header {
     margin: 6px 0
 }
 
-.menuweb {
-    display: none;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: left;
-}
-
 .section1{
   background-image: url("../images/hero.jpg");
   display: flex;
