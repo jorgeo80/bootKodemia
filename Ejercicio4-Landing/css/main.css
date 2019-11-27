@@ -4,19 +4,20 @@
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
-
-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: tomato;
 }
 
-.contact{
-  display: none;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: tomato;
 }
 
+.contact {
+    display: none;
+}
+
+<<<<<<< HEAD
 .donate{
   background-color: black;
   color: white;
@@ -26,26 +27,36 @@ header{
   border: 2px solid tomato;
   padding: 8px;
   border-radius: 5px;
+=======
+.donate {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    padding: 5px;
+>>>>>>> ab4078a54356f1a3e93904e1a17f16ac253ba596
 }
-  
+
 .menu {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0
 }
 
-.menuweb{
-  display: none;
+.menuweb {
+    display: none;
 }
 
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: left;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: left;
 }
 
+<<<<<<< HEAD
 .section1{
   background-image: url("../images/hero.jpg");
   display: flex;
@@ -56,82 +67,91 @@ nav{
  .opac{
   background: rgba(red, green, blue, alpha);
   font-size: 100px;
+=======
+.section1 {
+    background-image: url("../images/hero.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+>>>>>>> ab4078a54356f1a3e93904e1a17f16ac253ba596
 }
 
-.head1{
-  margin-bottom: 0%;
-  padding-bottom: 0%;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 75px;
-  font-style: bold;
-}
-.sub1{
-  margin-top: 0%;
-  padding-top: 0%;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 35px;
-  font-style: bold;
+.head1 {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    font-style: bold;
 }
 
-.text1{
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
+.sub1 {
+    margin-top: 0%;
+    padding-top: 0%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-style: bold;
 }
 
-.btDonate1{
-  background-color: tomato;
-  border: 2px solid tomato;  
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-style: bold;
-  border-radius: 12px;  
+.text1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
 
-.btDonate2{
-  display: none;
-  background-color: transparent;
-  border: 2px solid tomato;  
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-style: bold;
-  border-radius: 12px;
+.btDonate1 {
+    background-color: tomato;
+    border: 2px solid tomato;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 12px;
 }
 
-.square{
-  background-color: rgb(240, 235, 235);
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-style: bold;
-  border-radius: 10px; 
+.btDonate2 {
+    display: none;
+    background-color: transparent;
+    border: 2px solid tomato;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 12px;
 }
 
-.square .img2{
-  display: none;
+.square {
+    background-color: rgb(240, 235, 235);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 10px;
 }
 
-.square:hover{
-  background-color: tomato;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-style: bold;
-  border-radius: 10px; 
+.square .img2 {
+    display: none;
 }
 
-.square:hover .img1{
-  display: none;
+.square:hover {
+    background-color: tomato;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 10px;
 }
 
-.square:hover .img2{
-  display: block;
+.square:hover .img1 {
+    display: none;
 }
 
+.square:hover .img2 {
+    display: block;
+}
+
+<<<<<<< HEAD
 .section3{
   background-image: url(../images/cause-4.jpg);
   background-repeat: no-repeat;
@@ -143,38 +163,50 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+=======
+.section3 {
+    background-image: url(../images/cause-4.jpg);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+>>>>>>> ab4078a54356f1a3e93904e1a17f16ac253ba596
 }
 
 .line {
-  width: 35px;
-  height: 5px;
-  background-color: tomato;
-  margin: 6px 0
+    width: 35px;
+    height: 5px;
+    background-color: tomato;
+    margin: 6px 0
 }
 
-.section3 div img{
-  width: 200px;
-  height: 200px;
+.section3 div img {
+    width: 200px;
+    height: 200px;
 }
 
-.section4{
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-style: bold;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.section4 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.readmore{
-  color: tomato;
+.readmore {
+    color: tomato;
 }
 
-.readmore:link{
-  text-decoration: none;
+.readmore:link {
+    text-decoration: none;
 }
 
+<<<<<<< HEAD
 .art{
   display: flex;
   flex-direction: row;
@@ -190,25 +222,36 @@ nav{
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;  
+=======
+.art1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-
-footer{
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
+.div2 {
+    background-color: #5f6769;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+>>>>>>> ab4078a54356f1a3e93904e1a17f16ac253ba596
 }
 
-footer div a{
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-style: bold;
-  border-radius: 12px;
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-footer div a:link{
-  text-decoration: none;
+footer div a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 12px;
+}
+
+footer div a:link {
+    text-decoration: none;
 }
