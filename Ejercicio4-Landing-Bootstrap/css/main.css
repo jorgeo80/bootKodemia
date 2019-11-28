@@ -37,36 +37,7 @@ header {
   justify-content: space-between;
 }
 
- .opac{
-  background: rgba(red, green, blue, alpha);
-  font-size: 100px;
-}
-
-.head1 {
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 75px;
-    font-style: bold;
-}
-
-.sub1 {
-    margin-top: 0%;
-    padding-top: 0%;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-    font-style: bold;
-}
-
-.text1 {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-}
-
-.btDonate1 {
+button {
     background-color: tomato;
     border: 2px solid tomato;
     color: white;
@@ -76,15 +47,14 @@ header {
     border-radius: 12px;
 }
 
-.btDonate2 {
-    display: none;
-    background-color: transparent;
-    border: 2px solid tomato;
-    color: white;
+.section2 {
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     font-style: bold;
-    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .square {
@@ -142,15 +112,7 @@ header {
     height: 200px;
 }
 
-.section4 {
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    font-style: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 
 .readmore {
     color: tomato;
