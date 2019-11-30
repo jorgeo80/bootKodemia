@@ -9,208 +9,546 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <a href="#"><img class="mr-3" src="..." alt="Logo"></a>
-        <a href="#"><img class="mr-3" src="..." alt="Search"></a>
-        <a href="#"><img class="mr-3" src="..." alt="notified"></a>
-        <a class="btn" href="#"><img class="mr-3" src="..." alt="upgrade"></a>
-        <a href="#"><img class="mr-3" src="..." alt="sign-in"></a>
+    <header class="d-flex align-items-center justify-content-between" >
+        <div class="mr-3 d-none d-md-block">
+            <a href="#"><img class="" src="assets/images/logo-desk.png" alt="Logo"></a>
+        </div>
+          <div class="mr-3 d-md-none d-block">
+            <a href="#"><img class="" src="assets/images/logo-mobile.png" alt="Search"></a>
+          </div>
+          <div class="d-flex align-items-center">
+          <div class="mr-3">
+            <a href="#"><img class="mr-3 " src="assets/images/search.png" alt="notified"></a>
+          </div>
+          <div class="">
+              <a href="#"><img class="mr-3" src="assets/images/notification.png" alt="Search"></a>
+          </div>
+          <div class="d-none d-md-block mr-3">
+              <a class="btn btn-outline-secondary " href="#">Upgrade</a>
+          </div>
+          <div class="">
+            <a href="#"><img class="mr-3" src="assets/images/profile.png" alt="sign-in"></a>
+          </div>
+        </div>
     </header>
-    <nav class="bg-dark">
-        <ul>
-            <li class="col text-white">li001</li>
-            <li class="col text-white">li002</li>
-            <li class="col text-white">li003</li>
-            <li class="col text-white">li004</li>
-            <li class="col text-white">li005</li>
-            <li class="col text-white">li006</li>
-            <li class="col text-white">li007</li>
-            <li class="col text-white">li008</li>
-            <li class="col text-white">li009</li>
-            <li class="col text-white">li010</li>
-            <li class="col text-white">li011</li>
-            <li class="col text-white">li012</li>
-            <li class="col text-white">li013</li>
+
+    <nav class="mr-md-5 ml-md-5 sticky-top">
+        <ul class="d-flex align-items-center mt-4 mb-4 text-muted">
+            <li class="col "><img src="assets/images/back.png" alt="left"></li>
+            <li class="col mr-3 mr-md-0">HOME</li>
+            <li class="col  mr-3 mr-md-0">ONEZERO</li>
+            <li class="col  mr-3 mr-md-0">ELEMENTAL</li>
+            <li class="col mr-3 mr-md-0 ">GEN</li>
+            <li class="col">ZORA</li>
+            <li class="col d-none d-md-block">FORGE</li>
+            <li class="col d-none d-md-block">MARKER</li>
+            <li class="col d-none d-md-block">SELF</li>
+            <li class="col d-none d-md-block">TECH</li>
+            <li class="col d-none d-md-block">HEATED</li>
+            <li class="col d-none d-md-block">MODUS</li>
+            <li class="col"><img src="assets/images/right.png" alt="right"></li>
         </ul>
     </nav>
-    <section class="container">
+    <section class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4">
-                <img src="..." alt="sec1">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="media mb-3">
-                    <div class="media-body">
-                        <h5 class="mt-0 mb-1">Media object</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <div class="col-12 col-md-4 pl-md-5">
+                <img class="img-fluid" src="assets/images/uno.jpg" alt="sec1">
+                <div class="row">
+                  <div class="col-12 col-md-12 mt-1">
+                    <div class="offset-md-2">
+                      <h5>Android Becomes BasicallyUnusable If You Turn Off All of Google’s Tracking</h5>
+                      <p class="text-secondary">I know, because I tried</p>
+                      <a class="author text-dark" href="#">Sarah Emerson</a> in <a class="blog text-dark" clas href="#">OneZero</a>
+                      <div class="text-secondary">
+                        <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                      </div>
                     </div>
-                    <img class="ml-3" src="..." alt="Sec1">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec1">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec1">
+                  </div>
                 </div>
             </div>
-            <div class="col-4 d-none d-md-block">
-                <img src="..." alt="sec1">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="col-12 col-md-4 mt-5 mt-md-0">
+                <div class="media mb-3 d-flex ">
+                    <div class="media-body order-md-2 ">
+                        <h6 class="mt-0 mb-1">Are Cats Liquid?</h6>
+                        <p class="text-secondary">Cat science</p>
+                        <a class="author text-dark" href="#">Sarah Emerson</a> in <a class="blog text-dark" clas href="#">OneZero</a>
+                        <div class="text-secondary">
+                          <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                        </div>
+                    </div>
+                    <img class="ml-3 ml-md-0 mr-md-3 img-fluid order-md-1 " src="assets/images/dos.jpg" alt="Sec1">
+                </div>
+                <div class="media mb-3 d-flex">
+                    <div class="media-body order-md-2">
+                        <h6 class="mt-0 mb-1">Elite Universities Are Breeding Grounds for Insecure Overachievers</h6>
+                        <a class="author text-dark" href="#">Peter Eagle Sims</a> in <a class="blog text-dark" clas href="#">Forge</a>
+                        <div class="text-secondary">
+                          <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                        </div>
+                    </div>
+                    <img class="ml-3 ml-md-0 mr-md-3 img-fluid order-md-1" src="assets/images/tres.jpg" alt="Sec1">
+                </div>
+                <div class="media mb-3 d-flex">
+                    <div class="media-body order-md-2">
+                        <h6 class="mt-0 mb-1">‘Vegans Are so Annoying’</h6>
+                        <p class="text-secondary">In defense of vegans — even the really...</p>
+                        <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                        <div class="text-secondary">
+                          <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                        </div>
+                    </div>
+                    <img class="ml-3 ml-md-0 mr-md-3 img-fluid order-md-1" src="assets/images/cuatro.jpg" alt="Sec1">
+                </div>
+            </div>
+            <div class="col-4 d-none d-md-block pr-5">
+                <img class="img-fluid w-100" src="assets/images/cinco.jpg" alt="Sec1">
+                <div class="row">
+                  <div class="col-10 mt-1">
+                    <div class="">
+                      <h5>Self-Driving Cars Will Be a Disaster for Our Environment, </h5>
+                      <p class="text-secondary">A transportation revolution doesn’t have </p>
+                      <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                      <div class="text-secondary">
+                        <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="container">
+
+    <section class="container-fluid">
+      <hr>
         <div class="row d-block d-md-none">
             <div class="col-12">
                 <div class="media mb-3">
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            <p>POPULAR ON MEDIUM</p>
+                              <h6 class="mt-0 mb-1">Of Course Your Ex Still Thinks About You</h6>
+                              ngilla. Donec lacinia congue felis in faucibus.
                         </div>
-                        <img class="ml-3" src="..." alt="Sec2">
+                        <img class="ml-3" src="assets/images/cuatro.jpg" alt="Sec2">
                 </div>
             </div>
             <div class="col-12">
                 <div class="media mb-3">
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            <h6 class="mt-0 mb-1">Media object 2</h6>
+                            s purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                         </div>
-                        <img class="ml-3" src="..." alt="Sec2">
+                        <img class="ml-3" src="assets/images/tres.jpg" alt="Sec2">
                 </div>
-            </div>  
+            </div>
             <div class="col-12">
                 <div class="media mb-3">
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
+                            <h6 class="mt-0 mb-1">Media object 2</h6>
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                         </div>
-                        <img class="ml-3" src="..." alt="Sec2">
+                        <img class="ml-3" src="assets/images/dos.jpg" alt="Sec2">
                 </div>
             </div>
         </div>
-        <div class="row d-flex">
-            <div class="order-2 order-md-1 col-12 col-md-8">
+        <div class="row d-flex ">
+            <div class="order-2 order-md-1 col-12 col-md-7 content-scroll">
                 <div class="media mb-3">
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+                            <h4 class="mt-0 mb-1">Of Course Your Ex Still Thinks About You</h4>
+                            <p class="text-secondary">We all think about each other</p>
+                            <div class="d-flex justify-content-between">
+                              <div class="">
+                                <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                                <div class="text-secondary">
+                                  <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                                </div>
+                              </div>
+                              <div class="align-self-center">
+                                <img src="assets/images/bookmark.png" alt="">
+                                <img class="d-none d-md-flex"class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+                              </div>
+                            </div>
                         </div>
-                        <img class="ml-3" src="..." alt="Sec2">
+                        <img class="ml-3" src="assets/images/seis.jpg" alt="Sec2">
                 </div>
                 <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <div class="media-body">
+                    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+                      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+                      <p class="text-secondary">We all think about each other</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="">
+                          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                          <div class="text-secondary">
+                            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                          </div>
                         </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <div class="align-self-center">
+                          <img src="assets/images/bookmark.png" alt="">
+                          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
                         </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
-                </div>
-                <div class="media mb-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Media object 2</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <img class="ml-3" src="..." alt="Sec2">
+                      </div>
+                  </div>
+                  <img class="ml-3 imagenes" src="assets/images/8.jpeg" alt="Sec2">
+          </div>
+          <div class="media mb-3">
+            <div class="media-body">
+              <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+                <h4 class="mt-0 mb-1">5 Reasons Why Someone Isn’t Texting You Back</h4>
+                <p class="text-secondary">A reading strategy to make your reading experience easy and enjoyable</p>
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    <a class="author text-dark" href="#">A reading strategy to make your reading experience easy and enjoyable</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                    <div class="text-secondary">
+                      <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                    </div>
+                  </div>
+                  <div class="align-self-center">
+                    <img src="assets/images/bookmark.png" alt="">
+                    <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+                  </div>
                 </div>
             </div>
-            <div class="order-1 order-md-2 col-12 col-md-4">
-                <ol>
-                    <li><a href="">Lorem ipsum dolor sit.</a></li>
-                    <li><a href="">At omnis quia delectus?</a></li>
-                    <li><a href="">Esse aliquid tempore voluptatum.</a></li>
-                    <li><a href="">Similique ipsa dolorum eius!</a></li>
-                    <li><a href="">Possimus nulla ratione laborum!</a></li>
-                </ol>
+            <img class="ml-3 imagenes" src="assets/images/10.jpeg" alt="Sec2">
+    </div>
+
+    <div class="media mb-3">
+      <div class="media-body">
+        <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+          <h4 class="mt-0 mb-1">Why “eat less, move more” doesn’t work for weight loss</h4>
+          <p class="text-secondary">- It’s a short-term fix. Here’s what works in the long-term.</p>
+          <div class="d-flex justify-content-between">
+            <div class="">
+              <a class="author text-dark" href="#">Maria Cross MSc</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+              <div class="text-secondary">
+                <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+              </div>
+            </div>
+            <div class="align-self-center">
+              <img src="assets/images/bookmark.png" alt="">
+              <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+            </div>
+          </div>
+      </div>
+      <img class="ml-3 img-fluid" src="assets/images/11.png" alt="Sec2">
+      </div>
+
+        <div class="media mb-3">
+          <div class="media-body">
+            <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+              <h4 class="mt-0 mb-1">DevOps Is Dead, Long Live NoOps</h4>
+              <p class="text-secondary">Learn why DevOps is not enough</p>
+              <div class="d-flex justify-content-between">
+                <div class="">
+                  <a class="author text-dark" href="#">Daniele Fontani in Better Programming</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                  <div class="text-secondary">
+                    <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                  </div>
+                </div>
+                <div class="align-self-center">
+                  <img src="assets/images/bookmark.png" alt="">
+                  <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+                </div>
+              </div>
+          </div>
+          <img class="ml-3 img-fluid" src="assets/images/9.png" alt="Sec2">
+  </div>
+                <div class="media mb-3">
+                  <div class="media-body">
+                    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+                      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+                      <p class="text-secondary">We all think about each other</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="">
+                          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                          <div class="text-secondary">
+                            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                          </div>
+                        </div>
+                        <div class="align-self-center">
+                          <img src="assets/images/bookmark.png" alt="">
+                          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <img class="ml-3 img-fluid"  src="assets/images/8.jpeg" alt="Sec2">
+          </div>
+          <div class="media mb-3">
+            <div class="media-body">
+              <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+                <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+                <p class="text-secondary">We all think about each other</p>
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                    <div class="text-secondary">
+                      <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                    </div>
+                  </div>
+                  <div class="align-self-center">
+                    <img src="assets/images/bookmark.png" alt="">
+                    <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+                  </div>
+                </div>
+            </div>
+            <img class="ml-3 img-fluid " src="assets/images/4.png" alt="Sec2">
+    </div>
+    <div class="media mb-3">
+      <div class="media-body">
+        <a class="text-secondary" href="#">TECHNOLOGY</a>
+          <h4 class="mt-0 mb-1">The Weird Economics of Apple Upsell</h4>
+          <p class="text-secondary">Apple provides a good example of a strange </p>
+          <div class="d-flex justify-content-between">
+            <div class="">
+              <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+              <div class="text-secondary">
+                <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+              </div>
+            </div>
+            <div class="align-self-center">
+              <img src="assets/images/bookmark.png" alt="">
+              <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+            </div>
+          </div>
+      </div>
+      <img class="ml-3img-fluid "src="assets/images/3.png" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">HEALT</a>
+      <h4 class="mt-0 mb-1">The Rule for How to Wake Up Earlier and Work on Your Dream
+      </h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid"  src="assets/images/2.png" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">BOOKS</a>
+      <h4 class="mt-0 mb-1">Books that changed my life</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid"  src="assets/images/4.png" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid" src="assets/images/6.jpg" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid" src="assets/images/11.png" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid " src="assets/images/4.png" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src=" assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid" src="assets/images/3.png" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid"  src="assets/images/8.jpeg" alt="Sec2">
+</div>
+<div class="media mb-3">
+  <div class="media-body">
+    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+      <p class="text-secondary">We all think about each other</p>
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+          <div class="text-secondary">
+            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+          </div>
+        </div>
+        <div class="align-self-center">
+          <img src="assets/images/bookmark.png" alt="">
+          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+        </div>
+      </div>
+  </div>
+  <img class="ml-3 img-fluid" src="assets/images/8.jpeg" alt="Sec2">
+</div>
+                <div class="media mb-3">
+                  <div class="media-body">
+                    <a class="text-secondary" href="#">POPULAR ON MEDIUM</a>
+                      <h4 class="mt-0 mb-1">5 Books That Changed the Way I Code</h4>
+                      <p class="text-secondary">We all think about each other</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="">
+                          <a class="author text-dark" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                          <div class="text-secondary">
+                            <span>29 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                          </div>
+                        </div>
+                        <div class="align-self-center">
+                          <img src="assets/images/bookmark.png" alt="">
+                          <img class="d-none d-md-flex" src="assets/images/ellipsis.png" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <img class="ml-3 img-fluid" src="assets/images/8.jpeg" alt="Sec2">
+          </div>
+            </div>
+            <div class="order-1 order-md-2 col-12 col-md-4 offset-md-1">
+              <h5 >Popular on Medium</h5>
+              <hr>
+                <div class="mb-3">
+                  <div class="d-flex">
+                    <span class="n-list mr-3">01</span>
+                    <h5>Big Calculator: How Texas Instruments Monopolized Math Class</h5>
+                  </div>
+                  <a class="author text-dark ml-5" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                  <div class="text-secondary ml-5">
+                    <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="d-flex">
+                    <span class="n-list mr-3">02</span>
+                    <h5>Big Calculator: How Texas Instruments Monopolized Math Class</h5>
+                  </div>
+                  <a class="author text-dark ml-5" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                  <div class="text-secondary ml-5">
+                    <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="d-flex">
+                    <span class="n-list mr-3">03</span>
+                    <h5>Big Calculator: How Texas Instruments Monopolized Math Class</h5>
+                  </div>
+                  <a class="author text-dark ml-5" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                  <div class="text-secondary ml-5">
+                    <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="d-flex">
+                    <span class="n-list mr-3">04</span>
+                    <h5>Big Calculator: How Texas Instruments Monopolized Math Class</h5>
+                  </div>
+                  <a class="author text-dark ml-5" href="#">Tabitha Whiting</a> in <a class="blog text-dark" clas href="#">Tenderly</a>
+                  <div class="text-secondary ml-5">
+                    <span>27 nov</span> <span>read 10 min</span> <span><img src="assets/images/star.png" alt=""> </span>
+                  </div>
+                </div>
+                <hr>
                 <footer class="d-none d-md-block">
-                    piesss
+                    <a href="#">Help</a>
+                    <a href="#">Status</a>
+                    <a href="#">Writers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">About</a>
                 </footer>
             </div>
         </div>
@@ -220,5 +558,12 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $( document ).ready(function(){
+  $('.carousel').carousel({
+    interval: 2000
+  })
+});
+    </script>
 </body>
 </html>
