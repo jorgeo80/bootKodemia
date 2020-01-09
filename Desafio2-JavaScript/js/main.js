@@ -28,14 +28,18 @@ const fnStart = (n, arr, setTimmer = 1000, numMax = 12) => {
 const answers = (buttonValue) => {
     if(parseInt(buttonValue.toElement.value) == buttonValue.toElement.value){
         answerArray.push(parseInt(buttonValue.toElement.value))
+        if(answerArray.length !== 0 && randomArray.length === answerArray.length &&
+            randomArray[answerArray.length-1] === answerArray[answerArray.length-1]){
+                nPlay ++
+                console.log(`Terminaste ${answerArray.length}`, nPlay)
+                randomArray = []
+                answerArray = []
+                fnStart(nPlay, randomArray)                
+        } else if(randomArray[answerArray.length-1] === answerArray[answerArray.length-1]) {
+            console.log(`vas bien`)            
+        } else {alert(`pierdes`)}        
     }
     console.log(buttonValue.toElement.value, answerArray)
-    if(answerArray.length !== 0 && randomArray.length === answerArray.length &&
-        randomArray[answerArray.length-1] === answerArray[answerArray.length-1]){
-        console.log(`Terminaste ${answerArray.length}`)
-    } else if(randomArray[answerArray.length-1] === answerArray[answerArray.length-1]) {
-        console.log(`vas bien`)
-    } else {alert(`pierdes`)}
     //return answerArray
 }    
 
@@ -43,13 +47,14 @@ const valueClick = buttonValue => clickString = buttonValue.toElement.value
 
 const clickStart = () => {
     if(clickString === "start"){
+        nPlay = 1
         randomArray = []
         answerArray = []
         fnStart(nPlay, randomArray)
     }    
 }
 
-var nPlay = 3
+var nPlay = 1    
 document.addEventListener("click", valueClick)
 document.addEventListener("click", clickStart)
 document.addEventListener("click", answers)

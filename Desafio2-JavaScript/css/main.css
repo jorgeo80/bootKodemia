@@ -1,7 +1,9 @@
 #playmode{
     text-align: center;    
 }
-
+.agranda{
+    font-size: 25px;
+}
 #bt01{
     background-color: blue;
     }    
