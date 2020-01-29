@@ -1,1 +1,4 @@
 file-system/fs_readFile/node_modules
+file-system/fs_writeFile/node_modules
+file-system/fs_appendFile/node_modules
+file-system/fs_copyFile/node_modules
