@@ -1,9 +1,6 @@
 const fs = require('fs')
 
-fs.mkdir('test1',function(err) {
-    if(err){
-        console.log(err);
-        return 
-    }
-    console.log('Carpeta creada')
+fs.mkdir('test1', { recursive: true }, err => {
+    if(err) throw err 
+    console.log('Carpeta Creada')
 })
