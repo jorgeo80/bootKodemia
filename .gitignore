@@ -2,3 +2,6 @@ file-system/fs_readFile/node_modules
 file-system/fs_writeFile/node_modules
 file-system/fs_appendFile/node_modules
 file-system/fs_copyFile/node_modules
+file-system/fs_mkdir/node_modules
+file-system/fs_readdir/node_modules
+file-system/fs_rmdir/node_modules
