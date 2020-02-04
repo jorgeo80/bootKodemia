@@ -1,11 +1,16 @@
 const http = require("http")
 
 const server = http.createServer((request, response) => {
-    console.log('request: :)')
-    console.log('request: ', request.url)
-    console.log('Method: ', request.method)
+    
+    console.log(`Request: ${request.url}, Method: ${request.method}`)
+    
     if (request.url === '/jorge') {
-        response.write('Hola Jorge')
+        if(request.method === 'GET'){
+            response.write('Toma un Jorge')
+        }
+        if(request.method === 'POST'){
+            response.write('Creando un Jorge')
+        }
     } else {
         response.write('No eres Jorge')
     }    
