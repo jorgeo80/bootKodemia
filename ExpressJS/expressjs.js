@@ -29,7 +29,7 @@ server.use((req, res, next) => {
 })
 
 server.get('/koders/:id', (req, res) => {
-    resp.send(`Koder: ${req.params.id}`)
+    res.send(`Koder: ${req.params.id}`)
 })
 
 server.get('/jorge/name', (req, res) => {
