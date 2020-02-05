@@ -1,6 +1,6 @@
 
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 
 app.get('/', (request, response) => {
   response.send('Hello World!')
@@ -9,4 +9,3 @@ app.get('/', (request, response) => {
 app.listen(8080, () => {
   console.log('Example app listening on port 8080!');
 })
-
