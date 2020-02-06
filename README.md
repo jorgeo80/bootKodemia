@@ -2,7 +2,7 @@
 
 ## Modulo HTML-CSS
 
-* ejercicio1-html
+* [ejercicio1-html](https://github.com/jorgeo80/bootKodemia/tree/master/ejercicio1-html)
 * ejercicio2-html-css
 * ejercicio3-html-css
 * ejercicio3-mediaqueries
