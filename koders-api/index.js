@@ -26,7 +26,7 @@ app.del('/koders/:id',(request, response) => {
     const { id: koderId } = request.params
     const koderIndex = koderslist.findIndex(koder => koder.id === parseInt(koderId))
     // console.log(koderIndex)
-    if (koderIndex <= 0) throw new Error(`Koder with id: ${koderId} not found`)
+    if (koderIndex < 0) throw new Error(`Koder with id: ${koderId} not found`)
     koderslist.splice(koderIndex, 1)
     response.json({
       success: true,
