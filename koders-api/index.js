@@ -21,6 +21,30 @@ app.post('/koders', (request, response) => {
   })
 })
 
+app.del('/koders/:id',(request, response) => {
+  try {
+    const { id: koderId } = request.params
+    const koderIndex = koderslist.findIndex(koder => koder.id === parseInt(koderId))
+    // console.log(koderIndex)
+    if (koderIndex <= 0) throw new Error(`Koder with id: ${koderId} not found`)
+    koderslist.splice(koderIndex, 1)
+    response.json({
+      success: true,
+      data: {
+        koders: koderslist
+      }
+    })
+
+  } catch (error) {
+    response.status(400)
+    response.json({
+      success: false,
+      message: error.message,
+      error
+    })
+  }
+})
+
 app.get('/koders', (request, response) => {
   const { name } = request.query
   console.log('name :',name )
