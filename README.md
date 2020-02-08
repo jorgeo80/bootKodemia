@@ -24,7 +24,7 @@
 * [HTTP](https://github.com/jorgeo80/bootKodemia/tree/master/HTTP)
 * [ExpressJS](https://github.com/jorgeo80/bootKodemia/tree/master/ExpressJS)
 * [Koders-API](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api)
-* [Koders-API-Mongoose](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api-mongoose)
+* [Koders-API-Mongoose](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api-mongoose1)
 
 ## Desafios
 
