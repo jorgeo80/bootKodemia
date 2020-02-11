@@ -30,6 +30,6 @@
 
 * [Desafio1-Bootstrap](https://jorgeo80.github.io/bootKodemia/Desafio1-Bootstrap)
 * [Desafio2-JavaScript](https://jorgeo80.github.io/bootKodemia/Desafio2-JavaScript)
-* [Parctica-AWS](https://github.com/jorgeo80/bootKodemia/tree/master/webpage-aws-s3)
+* [Parctica-AWS](https://github.com/jorgeo80/bootKodemia/tree/master/wepage-aws-s3)
 
 
