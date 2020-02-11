@@ -1,0 +1,27 @@
+{
+  "name": "kode-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Kodemia",
+    "Express",
+    "api",
+    "Mongoose",
+    "blog"
+  ],
+  "author": "@jorgeo80",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "standard": "^14.3.1"
+  },
+  "devDependencies": {
+    "mongoose": "^5.8.11"
+  }
+}
