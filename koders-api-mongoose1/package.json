@@ -16,6 +16,7 @@
   "author": "@jorgeo80",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "standard": "^14.3.1"
   },

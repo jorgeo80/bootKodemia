@@ -1,8 +1,13 @@
 const mongoose = require('mongoose')
 
-const DB_PASSWORD = 'kodemia123'
-const DB_NAME = 'kodemia'
-const url = `mongodb+srv://jorgeo80:${DB_PASSWORD}@sexta-gen-zdpnv.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`
+const { 
+  DB_PASSWORD, 
+  DB_NAME,
+  DB_USER,
+  DB_HOST
+} = process.env
+
+const url = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}?retryWrites=true&w=majority`
 
 module.exports = mongoose.connect(url, { 
   useNewUrlParser: true,
