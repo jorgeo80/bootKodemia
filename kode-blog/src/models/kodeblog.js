@@ -37,4 +37,4 @@ const kodeBlogsSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Blogs', kodeBlogsSchema)
+module.exports = mongoose.model('blogs', kodeBlogsSchema)
