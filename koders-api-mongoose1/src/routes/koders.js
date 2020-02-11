@@ -68,4 +68,48 @@ router.get('/:id', async (request, response) => {
   }
 })
 
+router.delete('/:id', async (request, response) => {
+  try {
+    const { id } = request.params
+    const koderDeleted = await koder.deleteById(id)
+
+    response.json({
+      success: true,
+      message: 'koder id deleted',
+      data: {
+        koder: koderDeleted
+      }
+    })
+
+  } catch (error) {
+    response.status(400)
+    response.json({
+      success: false,
+      message: error.message
+    })
+  }
+})
+
+router.patch('/:id', async (request, response) => {
+  try {
+    const { id } = request.params
+    const koderPatched = await koder.updateById(id, request.body)
+
+    response.json({
+      success: true,
+      message: 'koder id updated',
+      data: {
+        koder: koderPatched
+      }
+    })
+
+  } catch (error) {
+    response.status(400)
+    response.json({
+      success: false,
+      message: error.message
+    })
+  }
+})
+
 module.exports = router
