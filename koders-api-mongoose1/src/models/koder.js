@@ -11,9 +11,9 @@ const kodersSchema = new mongoose.Schema({
   email: {
     type: String,
     minlength: 6,
-    match:  /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+ /gi,
+    match:  /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/i,
     toLowerCase: true,
-    required: true
+    required: false
   },
   birthDate: {
     type: Date,
