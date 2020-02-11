@@ -26,9 +26,10 @@
 * [Koders-API](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api)
 * [Koders-API-Mongoose](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api-mongoose1)
 
-## Desafios
+## Desafios & Precticas
 
 * [Desafio1-Bootstrap](https://jorgeo80.github.io/bootKodemia/Desafio1-Bootstrap)
 * [Desafio2-JavaScript](https://jorgeo80.github.io/bootKodemia/Desafio2-JavaScript)
+* [Parctica-AWS](https://jorgeo80.github.io/bootKodemia/webpage-aws-s3)
 
 
