@@ -26,7 +26,7 @@ router.post('/', async (request, response) => {
     const newBlog = await blog.create(request.body)
     response .json({
       success: true,
-      message: 'Blog created',
+      message: 'blog created',
       data: {
         dataBlog: newBlog
       }
