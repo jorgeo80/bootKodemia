@@ -3,6 +3,8 @@ const blog = require('../usecases/kodeblog')
 const auth = require('../middlewares/auth')
 const router = express.Router()
 
+// router.use(auth) bloquea todo el middleware
+
 router.get('/', async (request, response) => {
   try { 
   const allBlogs = await blog.getAll()
