@@ -1,5 +1,6 @@
 const express = require('express')
 const user = require('../usecases/user')
+const auth = require('../middlewares/auth')
 const router = express.Router()
 
 router.post('/', async (request, response) => {
@@ -23,9 +24,9 @@ router.post('/', async (request, response) => {
 
 router.post('/login', async (request, response) => {
   try {
-    const { passwoord, email } = request.body
-    if( !passwoord || !email) throw new Error('Unauthorized')
-    const jwt = await user.login(email, passwoord)
+    const { password, email } = request.body
+    if( !password || !email) throw new Error('Unauthorized')
+    const jwt = await user.login(email, password)
     response.json({
       success: true,
       message: 'logged in',
@@ -42,7 +43,7 @@ router.post('/login', async (request, response) => {
   }
 })
 
-router.delete('/', async (request, response) => {
+router.delete('/:id', auth, async (request, response) => {
   try {
     const { id } = request.params
     const userDeleted = await user.deleteById(id)

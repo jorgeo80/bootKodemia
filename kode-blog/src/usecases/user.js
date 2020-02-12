@@ -1,5 +1,6 @@
 const user = require('../models/user')
 const bcrypt =  require('../lib/bcrypt')
+const jwt =  require('../lib/jwt')
 
 async function create (userData) {
   const { password, ...restUserData } = userData
@@ -19,7 +20,7 @@ async function login (email, password) {
   if (!user) throw new Error('Unauthorized')
   const isValidPassword = await bcrypt.compare(password, userFound.password)
   if (!isValidPassword) throw new Error('Unauthorized')
-  return 'jwt'
+  return jwt.sign({ id: userFound._id })
 }
 
 module.exports = {
