@@ -2,7 +2,7 @@ const jwt =  require('../lib/jwt')
 
 function auth (request, response, next) {
   try {
-    const { authorization: token } = request.header
+    const { authorization: token } = request.headers
     const decodedToken = jwt.verify(token)
     if (!decodedToken) throw new Error('Invalid Token')
     next()
