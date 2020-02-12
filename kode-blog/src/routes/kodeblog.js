@@ -1,5 +1,6 @@
 const express = require('express')
 const blog = require('../usecases/kodeblog')
+const auth = require('../middlewares/auth')
 const router = express.Router()
 
 router.get('/', async (request, response) => {
@@ -21,7 +22,7 @@ router.get('/', async (request, response) => {
   }
 })
 
-router.post('/', async (request, response) => {
+router.post('/', auth, async (request, response) => {
   try {
     const newBlog = await blog.create(request.body)
     response .json({
