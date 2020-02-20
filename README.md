@@ -27,7 +27,7 @@
 * [Koders-API-Mongoose](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api-mongoose1)
 * [Kode-Bold-API](https://github.com/jorgeo80/bootKodemia/tree/master/kode-blog)
 
-## Desafios & Precticas
+## Desafios & Practicas
 
 * [Desafio1-Bootstrap](https://jorgeo80.github.io/bootKodemia/Desafio1-Bootstrap)
 * [Desafio2-JavaScript](https://jorgeo80.github.io/bootKodemia/Desafio2-JavaScript)
