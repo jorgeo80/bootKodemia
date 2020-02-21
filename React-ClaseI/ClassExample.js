@@ -25,7 +25,8 @@ class Polygon {
     this.sides = sides
   }
   get perimeterPolygon(){
-    const value = this.sides.reduce((pv, cv) => pv + cv, 0)
+    let array = this.sides
+    const value = array.reduce((pv, cv) => pv + cv, 0)
     return value
   }
 }
