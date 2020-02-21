@@ -25,7 +25,11 @@
 * [ExpressJS](https://github.com/jorgeo80/bootKodemia/tree/master/ExpressJS)
 * [Koders-API](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api)
 * [Koders-API-Mongoose](https://github.com/jorgeo80/bootKodemia/tree/master/koders-api-mongoose1)
-* [Kode-Bold-API](https://github.com/jorgeo80/bootKodemia/tree/master/kode-blog)
+* [Kode-Blog-API](https://github.com/jorgeo80/bootKodemia/tree/master/kode-blog)
+
+## Modulo React
+
+*[React Clase 1](https://github.com/jorgeo80/bootKodemia/tree/master/React-ClaseI)
 
 ## Desafios & Practicas
 
