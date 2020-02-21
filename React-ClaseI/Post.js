@@ -12,9 +12,9 @@ class Post {
     return value
   }
   set authorDesc(string){
-    const array = string.split('-')
-    this.author = array[0]
-    this.description = array[1]
+    const [author, description] = string.split('-')
+    this.author = author
+    this.description = description
   }
 }
 

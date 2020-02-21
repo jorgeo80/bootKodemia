@@ -20,8 +20,8 @@ const tirangle1 = new Tirangle(10, 10, 10)
 const tirangle2 = new Tirangle(11, 11, 11)
 const tirangle3 = new Tirangle(12, 12, 12)
 
-console.log('Triangle 1: ', tirangle1)
-console.log('Triangle 2: ', tirangle2)
-console.log('Triangle 3: ', tirangle3)
+console.log('Triangle 1: ', tirangle1, tirangle1.perimeter)
+console.log('Triangle 2: ', tirangle2, tirangle2.perimeter)
+console.log('Triangle 3: ', tirangle3, tirangle3.perimeter)
 
 
