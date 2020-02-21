@@ -8,8 +8,7 @@ class Post {
   this.image = image
   }
   get summary() {
-    const value = `${this.author} - ${this.description}`
-    return value
+    return value = `${this.author} - ${this.description}`
   }
   set authorDesc(string){
     const [author, description] = string.split('-')
