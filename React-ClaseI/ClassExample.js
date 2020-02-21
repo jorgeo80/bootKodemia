@@ -20,12 +20,21 @@ class Tirangle {
   }
 }
 
-class Triangle extends Polygon {
-  constructor(side1, side2, side3, side4) {
-    super(side1, side2, side3)
-    this.side4 = side4
+class Polygon {
+  constructor(sides = []){
+    this.sides = sides
   }
-  
+  get perimeterPolygon(){
+    const value = this.sides.reduce((pv, cv) => pv + cv, 0)
+    return value
+  }
+}
+
+class Square extends Polygon {
+  constructor(side1, side2, side3, side4) {
+    const  sides = [side1, side2, side3, side4]
+    super(sides)
+  }  
 }
 
 const tirangle1 = new Tirangle(10, 10, 10)
@@ -38,3 +47,6 @@ console.log('Triangle 3: ', tirangle3, tirangle3.perimeter)
 
 console.log(Tirangle.type(15, 15, 15))
 console.log(Tirangle.type(10, 25, 15))
+
+const Square1 = new Square(12, 12, 12, 12)
+console.log('Square 1: ', Square1, Square1.perimeterPolygon)
