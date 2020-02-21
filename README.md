@@ -30,6 +30,7 @@
 ## Modulo React
 
 * [React Clase 1](https://github.com/jorgeo80/bootKodemia/tree/master/React-ClaseI)
+* [Frontend - Blog](https://github.com/jorgeo80/bootKodemia/tree/master/frontend-blog)
 
 ## Desafios & Practicas
 
