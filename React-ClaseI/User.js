@@ -3,6 +3,5 @@ class User {
     this.Name = Name
     this.Age = Age
     this.Email = Email
-
   }
 }
