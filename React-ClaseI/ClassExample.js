@@ -14,6 +14,18 @@ class Tirangle {
     this.side2 = values 
     this.side3 = values 
   }
+  static type(side1, side2, side3){
+    if (side1 === side2 && side1 === side3) return 'Triangulo Regular'
+    return 'Triangulo Irregular'
+  }
+}
+
+class Triangle extends Polygon {
+  constructor(side1, side2, side3, side4) {
+    super(side1, side2, side3)
+    this.side4 = side4
+  }
+  
 }
 
 const tirangle1 = new Tirangle(10, 10, 10)
@@ -24,4 +36,5 @@ console.log('Triangle 1: ', tirangle1, tirangle1.perimeter)
 console.log('Triangle 2: ', tirangle2, tirangle2.perimeter)
 console.log('Triangle 3: ', tirangle3, tirangle3.perimeter)
 
-
+console.log(Tirangle.type(15, 15, 15))
+console.log(Tirangle.type(10, 25, 15))
