@@ -29,7 +29,7 @@
 
 ## Modulo React
 
-*[React Clase 1](https://github.com/jorgeo80/bootKodemia/tree/master/React-ClaseI)
+* [React Clase 1](https://github.com/jorgeo80/bootKodemia/tree/master/React-ClaseI)
 
 ## Desafios & Practicas
 
