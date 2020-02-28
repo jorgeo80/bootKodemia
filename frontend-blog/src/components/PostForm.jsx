@@ -28,10 +28,23 @@ class PostForm extends Component {
     this.setState({ [id]: value })
   }
 
+  onSubmit (event) {
+    event.preventDefault()
+    if (this.props.onSubmit) {
+      this.props.onSubmit({
+        ...this.state,
+        readTime: this.readTime
+      })
+    }
+  }
+
   render () {
     return (
       <div className='row post-form'>
-        <form className='col-6'>
+        <form
+          onSubmit={this.onSubmit.bind(this)}
+          className='col-6'
+        >
           <h1>Nuevo Post</h1>
 
           <AppInput
@@ -73,11 +86,11 @@ class PostForm extends Component {
 
         {
           this.state.image ?
-          <img
-            src={this.state.image}
-            alt='post preview'
-            className='col-6'
-          /> : 'Ingresa una URL en Image'
+            <img
+              src={this.state.image}
+              alt='post preview'
+              className='col-6'
+            /> : 'Ingresa una URL en Image'
         }
 
         <img
