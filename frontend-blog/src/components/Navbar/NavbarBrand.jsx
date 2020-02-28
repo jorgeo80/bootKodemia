@@ -1,12 +1,12 @@
 import React from 'react'
 
-function NavbarBrand (props) {
+function NavbarBrand () {
   return (
     <a
       className='navbar-brand'
-      href={props.to}
+      href='#'
     >
-      {props.text}
+      Navbar
     </a>
   )
 }

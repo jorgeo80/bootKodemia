@@ -11,9 +11,7 @@ function NavbarToggler () {
       aria-expanded='false'
       aria-label='Toggle navigation'
     >
-      <span
-        className='navbar-toggler-icon'
-      />
+      <span className='navbar-toggler-icon' />
     </button>
   )
 }

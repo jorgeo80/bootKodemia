@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NavbarNav from './NavbarNav'
-import NavbarNavSearch from './NavbarNavSearch'
+import NavbarNavSearch from './NavbarNavSearcher'
 
 function NavbarCollapse () {
   return (

@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'open-sans',sans-serif,Tahoma;
+  font-weight: 300;
+}
+
+header{
+  background: #1a1f71;
+  margin: auto;
+  border-bottom: 3px solid #f7b600; 
+}
+
+.nav-link{
+  color: white;
+  font-size: 10px;
+}
+
+.nav-link:hover{
+  color: #f7b600;
 }
